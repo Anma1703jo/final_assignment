@@ -1,4 +1,4 @@
-#Every Time You Ask
+# Every Time You Ask
 
 Welcome to my narrative pixel game !
 Once you downloaded all the assets and start the game a sci-fi psycho horror will await you!
