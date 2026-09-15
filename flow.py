@@ -806,6 +806,7 @@ class Scene2(Scene):
             if self.game.START_KEY:
                 self.dialogue_box.advance()
             if self.dialogue_box.is_finished():
+                self.robo_visible = False
                 self.dialogue_box = DialogueBox(self.game, scene_2["robo_materials"], speaker="robo_john")
                 self.state = "robo_materials"
 
@@ -820,6 +821,7 @@ class Scene2(Scene):
             if self.game.START_KEY:
                 self.dialogue_box.advance()
             if self.dialogue_box.is_finished():
+                self.robo_visible = False
                 self.dialogue_box = DialogueBox(self.game, scene_2["robo_silence"], speaker="robo_john")
                 self.state = "robo_silence"
 
@@ -834,6 +836,7 @@ class Scene2(Scene):
             if self.game.START_KEY:
                 self.dialogue_box.advance()
             if self.dialogue_box.is_finished():
+                self.robo_visible = False
                 self.dialogue_box = DialogueBox(self.game, scene_2["robo_syntax"], speaker="robo_john")
                 self.state = "robo_syntax"
 
